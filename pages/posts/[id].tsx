@@ -26,7 +26,7 @@ const Post: NextPage<Props> = ({ Data }) => {
       type="article"
     >
       <div className="flex flex-col justify-center items-center w-11/12 sm:w-8/12">
-        <h1 className="text-xl sm:text-2xl text-gray-600">{`${fixedSentence.date}${Data.title}`}</h1>
+        <h1 className="text-xl sm:text-2xl text-gray-600">{`${fixedSentence.date}U-NEXTで見れる『${Data.title}』の配信情報`}</h1>
         <div className="py-8">
           <a
             className="hover:opacity-80 cursor-pointer"
