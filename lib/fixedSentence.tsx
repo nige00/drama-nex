@@ -5,10 +5,10 @@ export const fixedSentence = {
   caution: `本ページの情報は${Datas[0].date}時点のものです。最新の配信状況はU-NEXT公式サイトにてご確認ください。`,
   date: `【${Datas[0].date}】`,
   affiliateLink:
-    "https://video.unext.jp",
+    "https://link-a.net/gate.php?guid=on&mcode=rdqxkpdl&acode=iw9piispuxdm&itemid=0",
   pagelink: (url: string) => {
     {
-      return `https://video.unext.jp/title/${url}`;
+      return `https://link-a.net/gate.php?guid=on&mcode=rdqxkpdl&acode=iw9piispuxdm&itemid=0&mallurl1=https%3A%2F%2Fwww.video.unext.jp%2Ftitle%2F${url}`;
     }
   },
   microCopy: "＼31日間無料 + 1200円分のポイントGET！／",
